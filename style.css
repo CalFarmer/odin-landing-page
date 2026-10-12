@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-flow: column nowrap;
+    font-family: Roboto;
+    margin: 0px;
 }
 
 
@@ -8,23 +10,27 @@ body {
 /* Header */
 
 .header {
+    background-color: #1F2937;
     
 }
 
 .logo {
-
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .nav-buttons {
 
     ul {
-
+        list-style-type: none;
     }
+
     li {
 
     }
+
     a {
-        
+       color: #F9FAF8; 
     }
 }
 /* Body 1 */
