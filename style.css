@@ -10,7 +10,12 @@ body {
 /* Header */
 
 .header {
+    padding: 1em;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -20,13 +25,17 @@ body {
 }
 
 .nav-buttons {
-
+    display: flex;
     ul {
         list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
     }
 
     li {
-
+        display: flex;
+    
     }
 
     a {
