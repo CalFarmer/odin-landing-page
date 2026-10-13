@@ -10,7 +10,7 @@ body {
 /* Header */
 
 .header {
-    padding: 0em 2em;
+    padding: 0em 5em;
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
@@ -44,7 +44,7 @@ body {
 }
 /* Body 1 */
 .body1 {
-    padding: 2em;
+    padding: 5em;
     background-color: #1F2937;
     display: flex;
 
