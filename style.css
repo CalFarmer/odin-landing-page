@@ -59,10 +59,14 @@ body {
 
 .sign {
     background-color: #3882F6;
+    border-radius: 6px;
+    padding: 6px 12px;
     
 
     .sign-text {
         color: #F9FAF8;
+        font-size: 18px;
+
     }
 }
 
