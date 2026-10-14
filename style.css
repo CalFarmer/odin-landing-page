@@ -83,7 +83,34 @@ body {
 
 /* Body 2 */
 
+.body2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 8em;
+    
 
+    .head {
+        justify-self: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        padding: 2em;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+
+        .box {
+            border: 2px solid #3882F6; 
+            border-radius: 6px;
+            width: inherit;
+            aspect-ratio: 1;
+            
+        }
+    }
+}
 
 /* Body 3 */
 
