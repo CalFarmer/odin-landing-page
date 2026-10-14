@@ -129,13 +129,31 @@ body {
 /* Body 4 */
 
 .body4 {
-    padding: 80px 160px;
+    padding: 80px 80px;
     .call {
-        padding: 20px;
+        padding: 40px;
         background-color: #3882F6;
         display: flex;
         flex-direction: row;
+        border-radius: 6px;
+        justify-content: space-evenly;
+
     }
+    .text {
+        color: white;
+    }
+
+    .sign2 {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        border-radius: 6px;
+        padding: 4px 10px;
+        border: 2px solid white;
+        font-size: 18px;
+        color: white;
+    }
+
 }
 
 /* Footer */
