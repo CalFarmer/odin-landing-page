@@ -10,7 +10,7 @@ body {
 /* Header */
 
 .header {
-    padding: 0em 5em;
+    padding: 0px 80px;
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
@@ -44,7 +44,7 @@ body {
 }
 /* Body 1 */
 .body1 {
-    padding: 5em;
+    padding: 80px;
     background-color: #1F2937;
     display: flex;
 
@@ -84,9 +84,9 @@ body {
 /* Body 2 */
 
 .body2 {
+    padding: 0px 160px 80px 160px;
     display: flex;
     flex-direction: column;
-    padding: 0em 8em;
     
 
     .head {
@@ -114,11 +114,29 @@ body {
 
 /* Body 3 */
 
-
+.body3 {
+    padding: 80px 160px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    .cred {
+        display: flex;
+        font-weight: 700;
+        justify-self: flex-end;
+        
+    }
+}
 
 /* Body 4 */
 
-
+.body4 {
+    padding: 80px 160px;
+    .call {
+        padding: 20px;
+        background-color: #3882F6;
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 /* Footer */
 
